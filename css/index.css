@@ -98,12 +98,11 @@ video#vidFondo {
   padding: 20px;
 }
 .tituloContenido{
-  width: 100%;
+  width: max-content;
   min-height: 170px;
   background-color: #F2F2F2;
   display: flex;
   flex-flow: row wrap;
-  
   padding: 5px;
 }
 .tituloContenido h5{
@@ -142,4 +141,42 @@ video#vidFondo {
 }
 .card-action{
   text-align: right;
+}
+
+.bienes{
+  overflow-y: scroll;
+  height: 500px;
+  width: 100%;
+}
+
+.lista{
+  width: 450px;
+}
+.bien{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.image{
+  margin:0px 30px;
+}
+.botonGuardar{
+  background-color: #648C7D;
+  width: 150px;
+  height: 40px;
+  font-weight: bold;
+  color: #F2F2F2;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  border-radius: 5px;
+}
+.botonEliminar{
+  background-color: lightcoral;
+  width: 150px;
+  height: 40px;
+  font-weight: bold;
+  color: #F2F2F2;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  border-radius: 5px;
 }

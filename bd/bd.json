@@ -1,0 +1,11 @@
+[
+    {"type":"header","version":"5.2.0","comment":"Export to JSON plugin for PHPMyAdmin"},
+    {"type":"database","name":"intelcost_bienes"},
+    {"type":"table","name":"bienes","database":"intelcost_bienes","data":
+        [
+            {"Id":"5","Direccion":"4732 Ipsum. Rd.","Ciudad":"Houston","Telefono":"802-414-8872","Codigo_Postal":"162925","Tipo":"Casa","Precio":"$45,912"},
+            {"Id":"7","Direccion":"549-5766 Sodales St.","Ciudad":"Orlando","Telefono":"557-228-6918","Codigo_Postal":"16794","Tipo":"Casa","Precio":"$2,846"}
+        ]
+    }
+]
+    
